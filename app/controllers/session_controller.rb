@@ -1,8 +1,8 @@
 class SessionController <  ApplicationController
 
-    def login
+    def new
 
-    end
+    end 
 
     def create
             user = User.find_by(username: params[:session][:username])

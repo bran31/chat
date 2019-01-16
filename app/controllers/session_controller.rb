@@ -31,4 +31,7 @@ class SessionController <  ApplicationController
         end
     end
 
+    def sign_up
+
+    end
 end
